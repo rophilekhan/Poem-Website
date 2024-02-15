@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "my font";
+    src: url(fonts/Lemon-Regular.ttf);
+}
+
+body {
+    font-family: 'my font'; /* Default font */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    margin: 20px;
+}
+
+.poem1 {
+    color: aqua;
+} 
+.poem2 {
+    color: chocolate;
+}
+
+.poem3 {
+    color: brown;
+}
+.poem4{
+    color: crimson;
+}
+.poem5 {
+    color: darkslategrey;
+}
+
+.para {
+    color: blueviolet;
+}
+.para2 {
+    color: crimson;
+}
+.para3 {
+    color: blue;
+}
+.para4 {
+    color: darkolivegreen;
+}
+.para5 {
+    color: gold;
+}
+h1, h2 {
+    font-family: "my font";
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #ff0202;
+}
+
+section {
+    font-family: 'my font';  
+}
+
+header {
+    background-color: #8400ff;
+    padding: 10px;
+}
+
+nav {
+    background-color: #00eeff;
+    padding: 10px;
+}
+
+footer {
+    background-color: #00eeff;
+    padding: 10px;
+    text-align: center;
+}
